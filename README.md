@@ -12,3 +12,4 @@ To accomplish this, the machine must learn from an unlabeled data set.
 In other words, the model has no hints how to categorize each piece of data and must infer its own rules for doing so.
 
 Sometimes the model finds patterns in the data that you don't want it to learn, such as stereotypes or bias.
+
