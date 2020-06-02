@@ -1,17 +1,33 @@
-# Machine-Learning-
+# Machine-Learning
 
 In basic terms, ML is the process of training a piece of software, called a model, to make useful predictions using a data set. 
 This predictive model can then serve up predictions about previously unseen data.
 
-In supervised machine learning, you feed the features and their corresponding labels into an algorithm in a process called training. 
-During training, the algorithm gradually determines the relationship between features and their corresponding labels. 
-This relationship is called the model.
+## Contents of the repository
 
-In unsupervised learning, the goal is to identify meaningful patterns in the data. 
-To accomplish this, the machine must learn from an unlabeled data set. 
-In other words, the model has no hints how to categorize each piece of data and must infer its own rules for doing so.
+### Regression:
+    - Simple linear regression
+    - Multiple linear regression
+    - Polynomial regression
+    - Decision tree regression
+    - Support vector regression
+    - Random forest regression
+    
+### Classification:
+    - Logistic regression
+    - Kernel SVM
+    - K-Nearest Neighbors
+    - Naive Bayes
+    - Decision tree classification
+    - Support vector machine
+    - Random forest classification
+    
+### Clustering :
+    - K-Means clustering
+    - Hierarchical clustering
 
-REDUCING LOSS :
+
+## REDUCING LOSS :
 
 reducing of loss can be done by computing gradient . Gradient is the derivative of the loss function
 with respect to the weight of the parameter. 
@@ -24,7 +40,7 @@ rate is small, then it takes small steps and requires a lot of time to reach loc
 when we take a large learning rate , the steps to wards the local minimum is very large , and chances of 
 over shooting the local minimum is high
 
-weight initialization :
+### weight initialization :
 
 when there is only one local minima, the initialization of the weights doesnt matter as eventually it
 reaches the local minimum.
@@ -34,7 +50,7 @@ stochastic gradient decent : one example at a time
 mini-batch gradinet decent : batches of 10 to 1000 at a time
 
 
-GENERALIZATION :
+## GENERALIZATION :
 
 Okham's razor principle : the less complex a model is , the better it is in prediction
 
@@ -50,7 +66,7 @@ We tweak the model trained on training data, to make changes to the patterns lea
 we test it on the test set.
 
 
-REPRESENTATION:
+## REPRESENTATION:
 
 Extracting usefull features form the raw data is called feature engineering.
 example: mapping the string values into a numeric vector by using one hot encoding.
@@ -65,7 +81,7 @@ Cleaning the data includes:
 5) adding missing values
 
 
-SOLVING NON-LINEAR PROBLEMS:
+## SOLVING NON-LINEAR PROBLEMS:
 
 In this case , the non-linear data cant be separated on the number of features available, cause the features
 are limited.
@@ -80,7 +96,7 @@ Sometimes adding these feature crosses won't add any value, so we need to consid
 feature crosses or should not consider them at all. 
 
 
-REGULARIZATION:
+## REGULARIZATION:
 
 Regularization is done to avoid overfitting in a model
 This can be done by reducing the model's complexity
