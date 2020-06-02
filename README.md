@@ -54,7 +54,7 @@ We tweak the model trained on training data, to make changes to the patterns lea
 
 ## Handling non-linear data
 
-In this case , the non-linear data cant be separated on the number of features available, cause the features are limited.
+The non-linear data cant be separated on the number of features available, cause the features are limited.
 Therefore we add one more feature which is the cross product of all the other features and increase the number of features. This way we increase the dimentionality and we will be able to separate the data points by a plane linearly.
 These new features are called feature crosses
 
@@ -69,7 +69,7 @@ This can be done by reducing the model's complexity.
 
 ### L0 Regularization:
     - Making all the weights zero.
-    - we have to be very carefull cause we might lose the coefficients which are neccessary.
+    - But there are chances of losing the coefficients which are neccessary.
     
 ### L1 Regularization:
     - Penalize sum of abs(weights)
