@@ -22,11 +22,11 @@ This predictive model can then serve up predictions about previously unseen data
     - Support vector machine
     - Random forest classification
     
-### Clustering :
+### Clustering:
     - K-Means clustering
     - Hierarchical clustering
 
-## REDUCING LOSS :
+## Reducing loss
 
 Reducing loss can be done by computing gradient . Gradient is the derivative of the loss function
 with respect to the weight of the parameter. 
@@ -44,7 +44,7 @@ Where as , when the function has more than one local minima , the initilization 
 stochastic gradient decent : one example at a time
 mini-batch gradinet decent : batches of 10 to 1000 at a time
 
-## GENERALIZATION :
+## Generalization
 
 The larger the training set, the better model we will be able to compute.
 The larger the testing set, the better confidence we will be able to have in the trained model.
@@ -52,7 +52,7 @@ The larger the testing set, the better confidence we will be able to have in the
 Validation set: this is the third set of data we get from the sample data set.
 We tweak the model trained on training data, to make changes to the patterns learnt by the model, before we test it on the test set.
 
-## SOLVING NON-LINEAR PROBLEMS:
+## Handling non-linear data
 
 In this case , the non-linear data cant be separated on the number of features available, cause the features are limited.
 Therefore we add one more feature which is the cross product of all the other features and increase the number of features. This way we increase the dimentionality and we will be able to separate the data points by a plane linearly.
@@ -62,19 +62,19 @@ example: x, y are the features given ; x*y is the feature cross
 
 Sometimes adding these feature crosses won't add any value, so we need to consider only the meaningful feature crosses.
 
-## REGULARIZATION:
+## Regularization 
 
 Regularization is done to avoid overfitting in a model.
 This can be done by reducing the model's complexity.
 
-### L0 Regularization
+### L0 Regularization:
     - Making all the weights zero.
     - we have to be very carefull cause we might lose the coefficients which are neccessary.
     
-### L1 regularization:
+### L1 Regularization:
     - Penalize sum of abs(weights)
     - Encourage sparsity
 
-### L2 regularization
+### L2 Regularization:
     - new function to minimize is => minimize(loss(Data|model) + complexity(model))
 
