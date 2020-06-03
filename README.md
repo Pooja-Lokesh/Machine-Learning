@@ -52,7 +52,7 @@ The larger the testing set, the better confidence we will be able to have in the
 Validation set: this is the third set of data we get from the sample data set.
 We tweak the model trained on training data, to make changes to the patterns learnt by the model, before we test it on the test set.
 
-## Handling non-linear data
+## Handling non-linear data 
 
 The non-linear data cant be separated on the number of features available, cause the features are limited.
 Therefore we add one more feature which is the cross product of all the other features and increase the number of features. This way we increase the dimentionality and we will be able to separate the data points by a plane linearly.
