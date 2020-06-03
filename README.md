@@ -67,14 +67,19 @@ Sometimes adding these feature crosses won't add any value, so we need to consid
 Regularization is done to avoid overfitting in a model.
 This can be done by reducing the model's complexity.
 
-### L0 Regularization:
-    - Making all the weights zero.
-    - But there are chances of losing the coefficients which are neccessary.
+### Linear models :
     
-### L1 Regularization:
+L1 Regularization:
     - Penalize sum of abs(weights)
     - Encourage sparsity
+    - Reduces model's size
 
-### L2 Regularization:
+L2 Regularization:
     - new function to minimize is => minimize(loss(Data|model) + complexity(model))
+    - Increases model stability
+    
+### Non-linear models :
+
+    - To regularize a deep neural network model, we use Dropout regularization. 
+    - Dropout removes a random selection of a fixed percentage of the neurons in a network layer for a single gradient step.
 
