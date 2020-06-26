@@ -80,6 +80,6 @@ L2 Regularization:
     
 ### Non-linear models :
 
-    - To regularize a deep neural network model, we use Dropout regularization. 
-    - Dropout removes a random selection of a fixed percentage of the neurons in a network layer for a single gradient step.
+- To regularize a deep neural network model, we use Dropout regularization. 
+- Dropout removes a random selection of a fixed percentage of the neurons in a network layer for a single gradient step.
 
