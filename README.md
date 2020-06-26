@@ -69,12 +69,12 @@ This can be done by reducing the model's complexity.
 
 ### Linear models :
     
-L1 Regularization:
+- L1 Regularization:
     - Penalize sum of abs(weights)
     - Encourage sparsity
     - Reduces model's size
 
-L2 Regularization:
+- L2 Regularization:
     - new function to minimize is => minimize(loss(Data|model) + complexity(model))
     - Increases model stability
     
